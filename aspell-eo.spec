@@ -3,7 +3,7 @@ Summary(pl):	S³ownik Esperanto dla aspella
 Name:		aspell-eo
 Version:	0.50
 %define	subv	2
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL (?)
 Group:		Applications/Text
