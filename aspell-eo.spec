@@ -1,5 +1,5 @@
 Summary:	Esperanto dictionary for aspell
-Summary(pl):	S這wnik Esperanto dla aspella
+Summary(pl):	S這wnik esperanto dla aspella
 Name:		aspell-eo
 Version:	0.50
 %define	subv	2
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Esperanto dictionary (i.e. word list) for aspell.
 
 %description -l pl
-S這wnik (lista s堯w) Esperanto dla aspella.
+S這wnik (lista s堯w) esperanto dla aspella.
 
 %prep
 %setup -q -n %{name}-%{version}-%{subv}
