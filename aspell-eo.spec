@@ -1,5 +1,5 @@
 Summary:	Esperanto dictionary for aspell
-Summary(pl.UTF-8):   Słownik Esperanto dla aspella
+Summary(pl.UTF-8):	Słownik Esperanto dla aspella
 Name:		aspell-eo
 Version:	0.50
 %define	subv	2
