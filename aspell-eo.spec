@@ -7,7 +7,7 @@ Release:	3
 Epoch:		1
 License:	GPL (?)
 Group:		Applications/Text
-Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/eo/%{name}-%{version}-%{subv}.tar.bz2
+Source0:	http://ftp.gnu.org/gnu/aspell/dict/eo/%{name}-%{version}-%{subv}.tar.bz2
 # Source0-md5:	f84147f5909e1a5f7adb86f27c71eb8c
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 2:0.50.0
