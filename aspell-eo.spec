@@ -1,17 +1,17 @@
 Summary:	Esperanto dictionary for aspell
 Summary(pl.UTF-8):	Słownik Esperanto dla aspella
 Name:		aspell-eo
-Version:	0.50
+Version:	2.1.20000225a
 %define	subv	2
-Release:	3
+Release:	1
 Epoch:		1
-License:	GPL (?)
+License:	GPL v2
 Group:		Applications/Text
-Source0:	http://ftp.gnu.org/gnu/aspell/dict/eo/%{name}-%{version}-%{subv}.tar.bz2
-# Source0-md5:	f84147f5909e1a5f7adb86f27c71eb8c
+Source0:	http://ftp.gnu.org/gnu/aspell/dict/eo/aspell6-eo-%{version}-%{subv}.tar.bz2
+# Source0-md5:	455719c49ffeb51b204767de6e1d9ef6
 URL:		http://aspell.sourceforge.net/
-BuildRequires:	aspell >= 2:0.50.0
-Requires:	aspell >= 2:0.50.0
+BuildRequires:	aspell >= 3:0.60.0
+Requires:	aspell >= 3:0.60.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -21,7 +21,7 @@ Esperanto dictionary (i.e. word list) for aspell.
 Słownik (lista słów) Esperanto dla aspella.
 
 %prep
-%setup -q -n %{name}-%{version}-%{subv}
+%setup -q -n aspell6-eo-%{version}-%{subv}
 
 %build
 # note: configure is not autoconf-generated
