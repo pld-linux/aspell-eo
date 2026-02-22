@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Słownik Esperanto dla aspella
 Name:		aspell-eo
 Version:	2.1.20000225a
 %define	subv	2
-Release:	2
+Release:	3
 Epoch:		1
 License:	GPL v2
 Group:		Applications/Text
